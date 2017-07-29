@@ -1,0 +1,177 @@
+﻿.page-wrapper[data-page="0"]{
+	background:#000;
+	display:block;
+	opacity: 1;
+}
+.page-wrapper article {
+	width: 90%;
+	margin: 3em auto;
+}
+.page-wrapper article h2 {
+	padding: 0 3em;
+}
+
+
+
+input#name, .button {
+	display: block;
+	margin: 0.3em auto;
+	width: 80%;
+	line-height: 2em;
+	font-size: 1.5em;
+	border-radius: 0.2em;
+	border: none;
+	outline: none;
+	box-shadow: 0 0 3px #aaa;
+	padding-left: 1em;
+	transition: 0.3s;
+	
+}
+input#name:focus, .button:hover {
+	box-shadow: 0 0 5px #00ff65;
+}
+
+table#whoToTalk {
+    width: 90%;
+    margin: auto;
+	margin-top: -1em;
+}
+
+#whoToTalk tr td {
+    border: solid #000 2px;
+    font-size: 3em;
+    height: 1em;
+    padding: 0.1em;
+    margin: 0.1em;
+    line-height: 2.2em;
+	transition: 0.37s;
+}
+table#whoToTalk tr td img {
+    display: block;
+    float: left;
+    border-radius: 100%;
+    border: solid 5px #ffe7e7;
+	width:2em;
+	margin-right:1em;
+}
+
+[data-page="3"] {
+	background:#ffd3d3;
+	border:solid 6px #ffd3d3
+}
+
+/* Chat area*/
+
+#chat header {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #000;
+    background: linear-gradient(to bottom, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%);
+    margin: 0;
+    font-weight: 900;
+    font-size: 1.2em;
+    line-height: 0.0em;
+    height: 2.5em;
+    color: #fff;
+}
+#chat article {
+    position: absolute;
+    height: 85%;
+    width: 100%;
+    margin: 0;
+    top: 2.5em;
+    background: #ffd3d3;
+	overflow-y: scroll;
+}
+
+#chat footer {
+    position: absolute;
+    bottom: 0;
+    height: 2.3em;
+    width: 100%;
+    background: #aaa;
+    margin: 0;
+}
+input#input {
+    position: absolute;
+    top: 10%;
+    border: 0;
+    height: 80%;
+    width: 90%;
+	outline:none;
+}
+
+a#send {
+    position: absolute;
+    height: 100%;
+    right: 2.5%;
+    top: -1px;
+	width: 2.3em;
+}
+a#send img{
+	width:100%;
+}
+#space {
+	height:100%;
+}
+
+.mine,.yours {
+	margin:1em auto 1em auto;
+	width: 95%;
+}
+.mine {
+    text-align: right;
+        
+}
+
+.msg {
+    /* position: absolute; */
+    min-width: 10em;
+    max-width: 20em;
+    /* right: 2%; */
+    background: #fff;
+    padding: 0.6em 0.5em;
+    display: inline-block;
+    text-align: left;
+	border-radius: 5.5px;
+	overflow-wrap: break-word;
+
+}
+.mine .msg {
+    background: #15ab50;
+    color: white;
+}
+
+
+/* Chat area end*/
+
+.button{
+	text-decoration: none;
+	transition: 0.87s;
+	background: #2cce05;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	line-height: 2.47em;
+}
+.button:hover {
+	background: rgb(239, 141, 158);
+	box-shadow: none;
+}
+
+#tips {
+    position: absolute;
+    top: 65%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 900;
+    color: white;
+    text-shadow: 0 0 2px #006;
+}
+
+
+

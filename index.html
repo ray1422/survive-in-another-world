@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel=stylesheet type="text/css" href="css/loading.css" />
+<link rel=stylesheet type="text/css" href="css/page.css" />
+<link rel=stylesheet type="text/css" href="css/main.css" />
+<script src="script/jquery.min.js"></script>
+<script src="script/page.js"></script>
+<script src="script/chat.js"></script>
+</head>
+<body>
+	<div class="page-wrapper" data-page="0">
+	<!--loading animation-->
+		<div id="loading_animation">
+			<div class="cssload-container">
+				<div class="cssload-l">L</div>
+				<div class="cssload-circle"></div>
+				<div class="cssload-square"></div>
+				<div class="cssload-triangle"></div>
+				<div class="cssload-i">I</div>
+				<div class="cssload-n">N</div>
+				<div class="cssload-g">G</div>
+			</div>
+		</div>
+	</div>
+	<div class="page-wrapper" data-page="1">
+	<!--username-->
+		<header>
+		<h4></h4>
+		</header>
+		<article>
+			<h2> 主人 我想知道你的名字..</h2>
+			<input type="text" id="name" />
+			<a  onClick="nameSend()" class="button">繼續</a>
+		</article>
+		
+		<footer></footer>
+	</div>
+	<div class="page-wrapper" data-page="2">
+	<!--select who to talk-->
+		<header>
+		<h2>主人 你要跟誰聊天呢?</h2>
+		</header>
+		<article>
+			<table id="whoToTalk">
+				<tr data-value="rem"><td><img src="image/rem.png" />レム</td></tr>
+				<tr data-value="shimakaze"><td><img src="image/unknown.png" />しまかぜ</td></tr>
+				<tr data-value="sagiri"><td><img src="image/sagiri.jpg" />和泉 紗霧</td></tr>
+				
+			</table>
+			<br />
+			<a  class="button" onclick="getInChat()">讓我們開始吧</a>
+		</article>
+		<footer></footer>
+	</div>
+	<div class="page-wrapper" data-page="3">
+	<!--loading animation-->
+		<div id="loading_animation">
+			<div class="cssload-container">
+				<div class="cssload-l">L</div>
+				<div class="cssload-circle"></div>
+				<div class="cssload-square"></div>
+				<div class="cssload-triangle"></div>
+				<div class="cssload-i">I</div>
+				<div class="cssload-n">N</div>
+				<div class="cssload-g">G</div>
+			</div>
+		</div>
+		<div id="tips">
+		小提示 : 等待以獲得對方的回覆
+		</div>
+	</div>
+	<div class="page-wrapper" data-page="4" id="chat">
+	<!--username-->
+		<header>
+		<h4><span></span> 的聊天室</h4>
+		</header>
+		<article>
+			<div id="chat_wrapper">
+				<div id="space"></div>
+				
+			</div>
+		</article>
+		
+		<footer>
+		<input type="text" id="input" /><a id="send"><img src="image/send.png"></a>
+		</footer>
+	</div>
+	<div id="resource">
+		<div id="audio">
+			<audio src="sound/new.mp3" id="sound_new" />
+		</div>
+	</div>
+	
+</body>
+</html>

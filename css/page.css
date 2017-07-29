@@ -1,0 +1,22 @@
+﻿body {
+	background:#000;
+	margin:0;
+	font-family: '華康少女文字', 'Open Sans', sans-serif, 微軟正黑體;
+}
+.page-wrapper {
+	position: fixed;
+	max-width: 540px;
+	min-width: 80%;	
+	border:solid 5px #fff;
+	opacity: 0;
+	transition: 2s;
+	display:none;
+	background:#fff;
+}
+.page-wrapper * {
+	transition: 2s;
+}
+#loading_animation {
+	/*position: fixed;*/
+	
+}
