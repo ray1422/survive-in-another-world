@@ -3,4 +3,4 @@ This project can help you know how "edged" you are. <br />
 You can talk with an anime person like Rem, Sagiri.... but he/she won't reply you something useful.
 # How to Use
 This project made via html, javascript....<br />
-just click "index.html" and enjoy it.
+Just click "index.html" and enjoy it.
