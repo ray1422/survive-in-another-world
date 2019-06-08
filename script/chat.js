@@ -20,7 +20,7 @@ function onsend(){
 			var re = reply($("#input").val());
 			$('#' + rd)[0].click();			
 			$("#input").val('')
-			$("#input")[0].focus('')
+			//$("#input")[0].focus('')
 			
 			
 			queue = setTimeout(function(){
