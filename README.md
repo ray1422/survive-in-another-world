@@ -1,6 +1,6 @@
 # Survive-in-Another-World
-This project can help you know how "edged" you are. <br />
-You can talk with an anime person like Rem, Sagiri.... but he/she won't reply you something useful.
-# How to Use
-This project made with html, javascript....<br />
-Just click "index.html" and enjoy it.
+這個專案可以展示你有多邊緣
+你可以跟一些宅宅的角色聊天，但是他不會回答你什麼有用的東西
+
+# 如何使用
+[https://ray1422.github.io/survive-in-another-world]
